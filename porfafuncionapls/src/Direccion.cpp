@@ -1,7 +1,7 @@
 #include "Direccion.h"
 
-//Aqui va todo menos la declaración de la clase
-Direccion(string nombre, string calle, int numero, int cp, string ciudad, string estado) {
+//Aqui va todo menos la declaraciÃ³n de la clase
+Dirreccion::Direccion(string nombre, string calle, int numero, int cp, string ciudad, string estado) {
         Nombre = nombre;
         Calle = calle;
         Numero = numero;
@@ -10,12 +10,12 @@ Direccion(string nombre, string calle, int numero, int cp, string ciudad, string
         Estado = estado;
 }
 
-Direccion() { //Vacio para cuando se inicialice en otra clase.
+Dirrecion::Direccion() { //Vacio para cuando se inicialice en otra clase.
 
 }
 
 //getters
-string get_Nombre() {
+string Direccion::get_Nombre() {
         return Nombre;
     }
 
